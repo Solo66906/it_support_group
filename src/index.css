@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+	--devider: #ececec;
+	--modal-overlay: #202122;
+	--backdrop: rgba(0, 0, 0, 0.3);
+	--text---link: #fe5b00;
+	--text---base: #151716;
+	--text---secondary: #7b7b7b;
+	--background---orange: #ff7028;
+	--background---hover: #e5550b;
+	--background---page-bg: #f2f2f2;
+}
+:root {
+  --font-family: "PT Sans", sans-serif;
+  --second-family: "Orenburg", sans-serif;
+  --third-family: "SF Pro Text", sans-serif;
+  --font3: "Roboto", sans-serif;
+  --font4: "SF Pro Display", sans-serif;
+  --font5: "Nunito", sans-serif;
+}
+.wrapperDesctop {
+  padding: 30px 40px;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+.headerBackground {
+  background-image: url(./img/bg.jpg);
+}
+.search {
+  margin-left: 32px;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border: 1px solid #494949;
+  border-radius: 2px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 111%;
+  color: #939393;
+}
