@@ -55,3 +55,28 @@ code {
   line-height: 111%;
   color: #939393;
 }
+.mask {
+  display: flex;
+  align-items: center;
+}
+.white {
+  color: white;
+}
+.slider {
+  color: #bebebe;
+  margin-bottom: 110px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.line {
+  margin: 24px 0px;
+  width: 375px;
+  height: 1px;
+  border: 0px;
+
+  color: linear-gradient(90deg, #4b4b4b 0%, #262625 100%);
+  background: linear-gradient(90deg, #4b4b4b 0%, #262625 100%);
+}
